@@ -33,4 +33,4 @@ async def on_message(message):
     else:
         await message.channel.send("Nie ma takiej komendy! OwO")
 
-client.run(settings["TOKEN"])
+client.run(settings["MTE2ODEwMTc5NzA5MzcwNzg1Nw.GWeJvp.AdbIdAMjmz66qOzOSEt6vjLvR-NuzVqwKMMzTA"])
