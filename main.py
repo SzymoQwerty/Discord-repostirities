@@ -30,7 +30,9 @@ async def on_message(message):
         await message.channel.send(flip_coin())
     elif message.content.startswith('$pass'):
         await message.channel.send(gen_pass(10))
+    elif message.content.startswith('c'):
+        await message.channel.send(ekologic_answers())
     else:
         await message.channel.send("Nie ma takiej komendy! OwO")
 
-client.run(settings["MTE2ODEwMTc5NzA5MzcwNzg1Nw.GWeJvp.AdbIdAMjmz66qOzOSEt6vjLvR-NuzVqwKMMzTA"])
+client.run(settings["MTA2NzQ3ODUwODM0NDk4MzYzNQ.GGzdoO.uy15H-sV_glrs44-DtFhihN2ypN_Ljo9FpUuVk"])
